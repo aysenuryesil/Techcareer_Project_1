@@ -2,6 +2,20 @@
 h2{
     color:orange;
     background-color: black;
+}
+#parag_id{
+    font-size: small !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 1.2;
+    text-align:justify;
+    text-decoration: underline;
+    text-transform: capitalize !important;
+    text-shadow: 1px 1px 4px blue;
 
+    line-height: 1.2;
+    word-spacing: 5px !important;
+    letter-spacing: 10px !important;
 
 }
