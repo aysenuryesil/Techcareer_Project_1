@@ -54,3 +54,33 @@ h2{
     border-bottom-right-radius: 10px;
     border-radius: 50% ;
 }
+/* color .div_common */
+
+.div_common{
+    /* 
+    height: 1rem;
+    width: 50%; 
+    */
+    
+    height: 100px;
+    width: 200%;
+    margin-bottom: 20px;
+    padding: 2rem ;
+    box-shadow: 10px 1px 10px 1px rgba(0,0,0,7);
+}
+
+.color_class {
+    color: white;
+    background-color: black;
+    background-color: red;
+    background-color: rgb(0, 0, 255);
+    background-color: rgba(0, 0, 255, 0.5);
+    /* 
+    hsl: 
+    h: hue ( ton: 0-360)
+    s: saturation (doygunluk: 0-100%)
+    l: lightness ( açıklık: 0-100%)
+     */
+    background-color: hsl(120, 100%, 50%);
+    background-color: hsla(120, 100%, 50%, 0.5);
+}
