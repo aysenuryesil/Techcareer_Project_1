@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /* width:400 =width+padding+border */
+}
+
 /* External CSS */
 h2{
     color:orange;
@@ -67,6 +73,11 @@ h2{
     margin-bottom: 20px;
     padding: 2rem ;
     box-shadow: 10px 1px 10px 1px rgba(0,0,0,7);
+    cursor: pointer;
+    display: block;
+    display: inline;
+    display: inline-block;
+    
 }
 
 .color_class {
@@ -83,4 +94,25 @@ h2{
      */
     background-color: hsl(120, 100%, 50%);
     background-color: hsla(120, 100%, 50%, 0.5);
+}
+.a_link{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 37, 37);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: 0.5px -0.6px 5px rgb(0, 0, 0);
+    padding: 0.4rem;
+    border-radius: 5%;
+    border:none;
+    display: block;
+    /* display: none;
+    visibility: hidden; */
+}
+.a_link:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 162, 11);
 }
