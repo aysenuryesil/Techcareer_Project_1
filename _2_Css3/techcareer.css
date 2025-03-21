@@ -3,11 +3,19 @@
     padding:0;
     box-sizing: border-box; /* width:400 =width+padding+border */
 }
+
+/* root */
+:root{
+    --main_color: red;
+    --main_bgcolor: black;
+}
 html{
     font-size: 20px;
 }
 body{
     padding: 0 10%;
+    background-color: var(--main_bgcolor);
+    color: var(--main_color);
 }
 
 /* External CSS */
@@ -171,3 +179,51 @@ table td:hover{
 #my_clip_path{
     clip-path: polygon(55% 0%, 100% 55%, 55% 100%, 0 50%);
 }
+
+/* selector(seçici) */
+/* p{
+    color:blue;
+    background-color: white;
+} */
+
+/* div p{
+    color:blue;
+    background-color: yellow;
+} */
+
+/* div> p{
+    color:blue;
+    background-color: yellow;
+}
+p::before{
+    content: "Frontend";
+}
+p::after{
+    content: "Developer";
+}
+p:hover{
+    color:blue;
+    background-color: green;
+}
+p:nth-child(even){
+    color: palevioletred;
+    background-color: rgba(0, 0, 255, 0.5);
+} */
+
+/* div~p{
+    color:blue;
+    background-color: green;
+} */
+ 
+div+p{
+    color:blue;
+    background-color: green;
+}
+
+/* input[type="text"]{
+    color: red;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 5%;
+    border: 1px solid red;
+} */
