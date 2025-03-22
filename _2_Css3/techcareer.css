@@ -319,3 +319,23 @@ div+p{
     border: 2px solid white;
     transform: rotate(360deg);
  }
+ img{
+    max-width: 100%;
+    height: auto;
+ }
+ #header_id{
+    background-image: url('../image/güneş.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    /* object-fit: cover; */
+    height: 90vh;
+ }  
+ .my_gradient{
+    background: linear-gradient(90deg, red , yellow,green,blue);
+    background: linear-gradient(to right, blue,green); 
+    background: linear-gradient(to left, blue,green); 
+    height: 200px;
+    width: 90%;
+
+ }
