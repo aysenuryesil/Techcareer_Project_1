@@ -6,7 +6,7 @@
 
 /* root */
 :root{
-    --main_color: red;
+    --main_color: white;
     --main_bgcolor: black;
 }
 html{
@@ -339,3 +339,72 @@ div+p{
     width: 90%;
 
  }
+
+
+/* form */
+
+#form_submit{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 4%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.form_data > label{
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.form_data > input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+input[type="text"],[type="email"],[type="password"]{
+    color: white;
+    background-color: white;
+
+}
+input[type="reset"]{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 5s ease-out;
+
+}
+input[type="submit"]{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 5s ease-out;
+}
+
+input[type="text"]:hover,[type="email"]:hover,[type="password"]:hover{
+    color: white;
+    background-color: #ccc;
+}
+
+input[type="reset"]:hover{
+    color: white;
+    background: linear-gradient(to right, red 10%,darkred);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+input[type="submit"]:hover{
+    color: white;
+    background: linear-gradient(to right, green 10%,darkgreen);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
