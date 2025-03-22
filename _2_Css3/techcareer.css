@@ -227,3 +227,41 @@ div+p{
     border-radius: 5%;
     border: 1px solid red;
 } */
+ /* flex box */
+ .flex_container{
+    /*  flex özelliği verdik */
+    display: flex;
+
+    /*  yatay düzlem(X)*/
+    justify-content: space-around;   
+
+     /* dikey düzlem(Y) */
+    align-items: center;
+
+    /* SATIR OLMASI  */
+    flex-direction: row;
+
+    /* CONTAINER EĞER SIĞMAZ BÜYÜK GELİRSE BİR SONRAKİ SATIRA GEÇSİN */
+    flex-wrap: wrap;
+
+    /* SATIRLAR ARASINDA EŞİT BOŞLUKLAR BIRAKSIN VE DİKEY OLARAK SIRALASIN */
+    align-content: space-around;
+ }
+ .flex_item{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: 0.5px -0.6px 5px rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 10px 1px 10px 1px white;
+    flex:1;
+ }
