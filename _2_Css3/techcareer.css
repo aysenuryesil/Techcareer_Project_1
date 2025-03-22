@@ -364,7 +364,7 @@ div+p{
     margin-bottom: 10px;
 }
 input[type="text"],[type="email"],[type="password"]{
-    color: white;
+    color: black;
     background-color: white;
 
 }
@@ -387,7 +387,7 @@ input[type="submit"]{
 }
 
 input[type="text"]:hover,[type="email"]:hover,[type="password"]:hover{
-    color: white;
+    color: black;
     background-color: #ccc;
 }
 
